@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Horizon Animation 2D</title>
+    <title>Unity WebGL Player | Indoor Station</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1024 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=2048 height=1200 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Horizon Animation 2D</div>
+        <div id="unity-build-title">Indoor Station</div>
       </div>
     </div>
     <script>
@@ -64,7 +64,7 @@
         codeUrl: buildUrl + "/Indororstation WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Horizon Animation 2D",
+        productName: "Indoor Station",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1024px";
-        canvas.style.height = "600px";
+        canvas.style.width = "2048px";
+        canvas.style.height = "1200px";
       }
 
       loadingBar.style.display = "block";
